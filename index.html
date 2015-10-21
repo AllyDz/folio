@@ -11,7 +11,7 @@
 
 	<body>
 
-		 <script src='http://code.jquery.com/jquery-latest.min.js'></script>
+		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
   		<script src="js/Final.js"></script>
 
 		<nav>
@@ -19,8 +19,8 @@
 			<ul>
 				<li><a href="#allyson">Allyson Brusstar</a></li>
 				<li><a href="#skills">Skills</a></li>
-				<li><a href="#work">Work</a></li>
-				<li><a href="#clients">Clients</a></li>
+				<!-- <li><a href="#work">Work</a></li> -->
+				<!-- <li><a href="#clients">Clients</a></li> -->
 				<li><a href="#phots">Photography</a></li>
 				<!-- <li><a href="#ed">Education</a></li> -->
 				<li><a href="#hello">Say Hello</a></li>
@@ -84,15 +84,15 @@
 		<!-- |||BACK TO TOP||| -->
 		<a class="back2top" href="#allyson">Back To Top</a>
 		<!-- |||BACK TO TOP||| -->
-		<section id="work" class="page">
+		<!-- <section id="work" class="page">
 			<h1>Portfolio</h1>
 			<p class="coming">Coming Soon the Site Near You!</p>
-		</section>
-			<div class="clear"></div>
+		</section> -->
+			<!-- <div class="clear"></div>
 		<section id="clients" class="page">
 			<h1>Clients</h1>
 			<p class="coming">Coming Soon the Site Near You!</p>
-		</section>
+		</section> -->
 			<div class="clear"></div>
 		<section id="phots" class="page">
 			<h1>Photography</h1>
@@ -114,6 +114,7 @@
                     </div>
                 </div>
 			<!-- 2nd Row -->
+				<div class="hide">
 					<div class="col-md-4">
 		                <div class="thumbnail">
 	                            <img src="images/antView.jpg" alt="Ant Man">
@@ -128,23 +129,30 @@
 	                            <img src="images/poyoLogo.jpg" alt="Poyo Logo">
 	                    </div>
 	                </div>
+	            </div>
             <!-- 3rd Row -->
-				<div class="col-md-4">
-					<div class="thumbnail">
-	                            <img src="images/flowerGray.jpg" alt="DC Flowers">
-	                    </div>
-                    <div class="thumbnail">
-                            <img src="images/birdWindow.jpg" alt="Birds">
-                        </div>
-                    <div class="thumbnail">
-	                            <img src="images/boardArt.jpg" alt="Custom Skate Board Art">
-	                    </div>
+            	<div class="hide">
+					<div class="col-md-4">
+						<div class="thumbnail">
+		                            <img src="images/flowerGray.jpg" alt="DC Flowers">
+		                    </div>
 	                    <div class="thumbnail">
-	                            <img src="images/wireFrame.jpg" alt="Web Wire Frame">
-	                    </div>
+	                            <img src="images/birdWindow.jpg" alt="Birds">
+	                        </div>
+	                    <div class="thumbnail">
+		                            <img src="images/boardArt.jpg" alt="Custom Skate Board Art">
+		                    </div>
+		                    <div class="thumbnail">
+		                            <img src="images/wireFrame.jpg" alt="Web Wire Frame">
+		                    </div>
+	                </div>
+	            </div>
+                <button class="more-imgs"><p class="more">More</p></button>
+                <div class="hide">
+                	<button class="hide-imgs"><p class="hidemore">Hide</p></button>
                 </div>
 		</section>
-			<div class="clear"></div>
+			<!-- <div class="clear"></div> -->
 		<!-- <section id="ed" class="page">
 			<h1>Education</h1>
 			<p class="coming">Coming Soon the Site Near You!</p>
@@ -152,7 +160,20 @@
 			<div class="clear"></div>
 		<section id="hello" class="page">
 			<h1>Drop a line!</h1>
-			<p class="coming">Coming Soon the Site Near You!</p>
+			<form id="contact-form">
+						<p class="contact-info"><label>Name: <input class="required name" type="text" name="sometext"></label></p>
+  						<p class="contact-info"><label>Email: <input  class="required email" type="email" name="email"></label></p>
+  						<p class="contact-info"><label>Phonoe Number: <input  class="phoneNumber" type="tel" name="phoneNumber"></label></p>
+  							<div class="clear"></div>
+  						<p class="contact-message"><label class="message-label">Message: <input  class="message" type="text" name="message"></label></p>
+			<section id="main">
+				<div class="container">
+					<section id="contact">
+						<input class="send-button" type="submit" value="Send">
+					</section>
+				</div>
+			</section>
+			</form>
 		</section>
 			<div class="clear"></div>
 		<section id="hireme" class="page">
