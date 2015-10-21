@@ -4,18 +4,20 @@
 	    $("div").slice(0, 4).show(); // select the first ten
 	    $(".more-imgs").click(function(e){ // click event for load more
 	        e.preventDefault();
+	        $(".hide-imgs").show();
 	        $("div:hidden").slice(0, 4).show(); // select next 10 hidden divs and show them
 	        if($("div:hidden").length == 0){ // check if any hidden divs still exist
-	            alert("Fin"); // alert if there are none left
 	    }
-   });
+    });
 
 //* HIDE IMAGES BTN
-
-	// after load more BTN is hit show Hide Img BTN
-
+	$(function(){
+		$(".hide-imgs").click(function(e){
+			e.preventDefault();
+			$(".hide").hide();
 	// when Hide Img BTN is clicked hide all images in hidden divs
-
+		});
+	});
 
 $(document).ready(function(){
 //alert('hello');
