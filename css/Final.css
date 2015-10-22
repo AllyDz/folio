@@ -332,7 +332,9 @@ input.message {
 /*******************************************/
 
 /****Tablet****/
-@media (max-width: 768px){
+/*@media (max-width: 768px){*/
+/****Phone****/
+@media (max-width: 375px){
  
 
 nav li {
@@ -389,7 +391,7 @@ h4{
 }
 
 /****Phone****/
-@media (max-width: 375px){
+/*@media (max-width: 375px){*/
 
 nav li {
 	float: none;
