@@ -1,0 +1,17 @@
+body{
+	/*background-color:#fcecdf;*/
+}
+
+nav ul li{
+	display: inline-block;
+	padding-left: 1%;
+}
+
+a{
+	text-decoration: none;
+	color: #887565;
+}
+
+ul{
+	list-style: none;
+}

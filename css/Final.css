@@ -279,6 +279,10 @@ input{
 	border-style: none;
 }
 
+.error{
+	background-color: yellow;
+}
+
 input.message {
     width: 86%;
     height: 100px;
@@ -327,6 +331,16 @@ input.message {
 
 }
 
+/******************************************
+/* LOOK PAGE
+/*******************************************/
+/*.look{
+	background-image: url(https://vimeo.com/groups/royaltyfree/videos/113606053);
+}*/
+/*.look{
+	background-image: url(<iframe src="https://player.vimeo.com/video/113606053" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/113606053">Birds on the Post - (Free to Use HD Stock Video Footage)</a> from <a href="https://vimeo.com/beachfront">Jeffrey Beach</a> on <a href="https://vimeo.com">Vimeo</a>.</p>);
+}
+*/
 /******************************************
 /* Mob Section
 /*******************************************/
